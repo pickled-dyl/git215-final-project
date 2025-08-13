@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Snow Cap Resorts | Contact</title>
+
+    <meta name="author" content="Dylan McDaniel">
+    <meta name="description" content="Contact page for Snow Cap Resorts.">
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Snow Cap Resorts</a></h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#">Accommodations</a>
+            <a href="#" class="current">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section class="intro contact">
+            <h2>Contact us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a *</p>
+            <img src="images/swiss-sunset.jpg" alt="sunset behind mountains">
+        </section>
+        <form method="post" action="https://wp.zybooks.com/form-viewer.php">
+            <fieldset id="info">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+            </fieldset>
+            <fieldset id="pref-contact">
+                <legend>Preferred Contact</legend>
+                <input type="radio" id="preferred-email" name="preferred">
+                <label for="preferred-email">Email</label>
+                <input type="radio" id="preferred-phone" name="preferred">
+                <label for="preferred-phone">Phone</label>
+            </fieldset>
+            <fieldset id="comment-submit">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments" rows="3" required></textarea>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright &copy;2023 Snow Cap Resorts</p>
+        <p>This site is for educational purposes only</p>
+    </footer>
+</body>
+
+</html>
